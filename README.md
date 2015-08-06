@@ -1,4 +1,4 @@
-![Travis Build Status](https://travis-ci.org/nilswloka/bwertr-react.svg)
+[![Build Status](https://travis-ci.org/nilswloka/bwertr-react.svg?branch=master)](https://travis-ci.org/nilswloka/bwertr-react)
 
 # bwertr-react
 A JavaScript version of bwertr with react and flux.
