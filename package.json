@@ -1,5 +1,5 @@
 {
-  "name": "bwertr-ng",
+  "name": "bwertr-react",
   "version": "0.0.1",
   "description": "A JavaScript version of bwertr build with react according to the flux architecture.",
   "main": "src/app.jsx",
