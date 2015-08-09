@@ -1,9 +1,7 @@
-jest.dontMock('../Bwertr');
-
 import React from 'react';
 import TestUtils from 'react-addons-test-utils';
 import ReactDOM from 'react-dom';
-const Bwertr = require('../Bwertr');
+const Bwertr = require('../Bwertr.jsx');
 
 describe('Bwertr', () => {
   it('displays greeting', () => {
