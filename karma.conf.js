@@ -1,19 +1,19 @@
 module.exports = function (config) {
   config.set({
-    browsers: ['PhantomJS'],
+    browsers: [ 'Chrome' ],
     files: [
       { pattern: 'tests.webpack.js', watched: false },
     ],
-    frameworks: ['jasmine'],
+    frameworks: [ 'mocha' ],
     preprocessors: {
-      'tests.webpack.js': ['webpack'],
+      'tests.webpack.js': [ 'webpack', 'sourcemap' ],
     },
-    reporters: ['dots'],
+    reporters: [ 'dots' ],
     singleRun: true,
     webpack: {
       module: {
         loaders: [
-          { test: /\.jsx?$/, loader: 'babel-loader' },
+          { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' },
         ],
       },
       watch: true,

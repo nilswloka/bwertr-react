@@ -1,6 +1,8 @@
 import React from 'react';
 import TestUtils from 'react-addons-test-utils';
 import ReactDOM from 'react-dom';
+import expect from 'expect';
+
 const Bwertr = require('../Bwertr.jsx');
 
 describe('Bwertr', () => {
