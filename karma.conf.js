@@ -1,6 +1,6 @@
 module.exports = function (config) {
   config.set({
-    browsers: [ 'Chrome' ],
+    browsers: [ process.env.CONTINUOUS_INTEGRATION ? 'Firefox' : 'Chrome' ],
     files: [
       { pattern: 'tests.webpack.js', watched: false },
     ],
