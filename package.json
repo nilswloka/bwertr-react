@@ -19,8 +19,8 @@
     "karma-mocha": "*",
     "karma-sourcemap-loader": "*",
     "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "*",
     "expect": "1.8.0",
-    "karma-phantomjs-launcher": "*",
     "karma-webpack": "*",
     "core-js": "*",
     "webpack": "1.11.0",
@@ -32,15 +32,5 @@
     "dev-server": "webpack-dev-server --progress --colors",
     "test": "karma start"
   },
-  "author": "Nils Wloka",
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "testFileExtensions": ["es6", "js"],
-    "moduleFileExtensions": ["js", "json", "es6", "jsx"],
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react",
-      "<rootDir>/node_modules/react-addons-test-utils",
-      "<rootDir>/node_modules/react-dom"
-    ]
-  }
+  "author": "Nils Wloka"
 }
